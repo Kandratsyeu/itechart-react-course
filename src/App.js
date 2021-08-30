@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Itechart React course</h1>
+      <section className="cards">
+        <div className="card">
+          <h2>First card</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+            explicabo aperiam repudiandae dolor voluptates dolorem earum tempora
+            vero veniam, illum dicta molestiae nisi laborum molestias expedita
+            iusto, odit odio. Odio?
+          </p>
+        </div>
+        <div className="card">
+          <h2>Second card</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+            explicabo aperiam repudiandae dolor voluptates dolorem earum tempora
+            vero veniam, illum dicta molestiae nisi laborum molestias expedita
+            iusto, odit odio. Odio?
+          </p>
+        </div>
+        <div className="card">
+          <h2>Third card</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+            explicabo aperiam repudiandae dolor voluptates dolorem earum tempora
+            vero veniam, illum dicta molestiae nisi laborum molestias expedita
+            iusto, odit odio. Odio?
+          </p>
+        </div>
+      </section>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
